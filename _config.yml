@@ -3,6 +3,7 @@ description: A place for our developers to report weekly progress
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-include-cache
 
-remote_theme: mmistakes/minimal-mistakes@4.26.2
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: neon
