@@ -2,6 +2,7 @@ title: Team Merlin's Magical Bird-like Blog
 description: A place for our developers to report weekly progress
 plugins:
   - jekyll-remote-theme
+  - include-cache
 
 remote_theme: mmistakes/minimal-mistakes@4.26.2
 minimal_mistakes_skin: neon
