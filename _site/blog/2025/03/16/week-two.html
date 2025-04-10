@@ -10,39 +10,39 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Week One - Our First Post! - Team Merlin’s Magical Bird-like Blog</title>
-<meta name="description" content="Let the fun begin!">
+<!-- begin _includes/seo.html --><title>Week Two - Gaining Some Momentum - Team Merlin’s Magical Bird-like Blog</title>
+<meta name="description" content="Finally some action!">
 
 
-  <meta name="author" content="Michael Wherry">
+  <meta name="author" content="Noah Rettig">
   
-  <meta property="article:author" content="Michael Wherry">
+  <meta property="article:author" content="Noah Rettig">
   
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Team Merlin's Magical Bird-like Blog">
-<meta property="og:title" content="Week One - Our First Post!">
-<meta property="og:url" content="http://localhost:4000/blog/2025/03/09/week-one.html">
+<meta property="og:title" content="Week Two - Gaining Some Momentum">
+<meta property="og:url" content="http://localhost:4000/blog/2025/03/16/week-two.html">
 
 
-  <meta property="og:description" content="Let the fun begin!">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2025-03-09T06:30:00-05:00">
+  <meta property="og:description" content="Finally some action!">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/blog/2025/03/09/week-one.html">
+
+  <meta property="article:published_time" content="2025-03-16T06:30:00-05:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/blog/2025/03/16/week-two.html">
 
 
 
@@ -133,18 +133,18 @@
   
     <div class="author__avatar">
       <a href="http://localhost:4000/">
-        <img src="/assets/images/bio_photo_maw.jpg" alt="Michael Wherry" itemprop="image" class="u-photo">
+        <img src="/assets/images/bio_photo_noah.jpg" alt="Noah Rettig" itemprop="image" class="u-photo">
       </a>
     </div>
   
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Michael Wherry</a>
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Noah Rettig</a>
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
-        <p>“I crave lambda functions”</p>
+        <p>“What is the size of the model?”</p>
 
       </div>
     
@@ -222,16 +222,16 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Week One - Our First Post!">
-    <meta itemprop="description" content="Let the fun begin!">
-    <meta itemprop="datePublished" content="2025-03-09T06:30:00-05:00">
+    <meta itemprop="headline" content="Week Two - Gaining Some Momentum">
+    <meta itemprop="description" content="Finally some action!">
+    <meta itemprop="datePublished" content="2025-03-16T06:30:00-05:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/blog/2025/03/09/week-one.html" itemprop="url">Week One - Our First Post!
+            <a href="http://localhost:4000/blog/2025/03/16/week-two.html" itemprop="url">Week Two - Gaining Some Momentum
 </a>
           </h1>
           
@@ -242,34 +242,38 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Welcome to our blog! This marks the first of many updates as part of our senior inquiry course (CSC-490).</p>
+        <h3 id="our-week-in-review">Our Week In-Review</h3>
 
-<h3 id="our-week-in-review">Our Week In-Review</h3>
-
-<p>This week, our team continued development on geo-crop; what we’re calling our Next.js application focused on storing and editing video files for the Geography department. Although we’ve encountered a few challenges, the progress has been both exciting and educational.</p>
+<p>Finally finished with some of the non-project assignments for the class, we have made some more substantial progress this week</p>
 
 <h3 id="key-milestones">Key Milestones</h3>
 
+<h4 id="data-uploading-and-retrieval-from-google-cloud-"><strong>Data Uploading and Retrieval from Google Cloud :</strong></h4>
+
+<p class="align-center"><img src="/assets/images/wk2_upload_page.png" alt="image-center" />
+  A screenshot taken of our new upload page!</p>
+
+<p>Using knowledge gained from Josh and Michael’s “Tech Tutorial” assignment, we have implemented a way to both retrieve (to download or view) and upload (single files at a time) files contained in our google cloud storage buckets. Since file-management is one major requirement for this project, this is an absolute win!</p>
+
 <ul>
-  <li>
-    <p><strong>Google Cloud Integration:</strong><br />
-We successfully created and managed a Google Cloud Bucket, ensuring that our team is capable of conducting file uploads and downloads—a crucial step for our video handling functionality.</p>
-  </li>
-  <li>
-    <p><strong>Next.js Learning Curve:</strong><br />
-As newcomers to Next.js and modern web development, we’ve been deepening our understanding through courses and hands-on experimentation. Currently, we’re looking to tackle dynamic page routing and building routes from our bucket’s filesystem structure.</p>
-  </li>
-  <li>
-    <p><strong>Blog Setup:</strong><br />
-Alongside the application, we set up this GitHub Pages site (hi!) to share our progress. Bootstrapping the project with Jekyll, GitHub Pages’s static site generator, was a slightly harrowing experience that has certainly broadened our skill set.</p>
-  </li>
+  <li><strong>UI Improvements:</strong><br />
+The UI of our application has been barebones before this week, but now we have begun the implementation of our UI mockups from the planning phase. While still fairly barebones, experimenting has been helpful for the learning process and will allow for better, incremental improvements later.</li>
 </ul>
+
+<h3 id="other-things-of-note">Other Things of Note:</h3>
+
+<h4 id="deciding-against-the-use-of-a-ui-library"><strong>Deciding Against the Use of a UI Library</strong></h4>
+
+<p class="align-center"><img src="/assets/images/wk2_current_landing_page.png" alt="image-center" />
+  A screenshot taken of the improved landing page!</p>
+
+<p>Upon discovering there are currently issues with the UI library we were planning on using, Blueprint UI, we have decided for the time being to forgo using one, and instead implement all UI elements we need ourselves. Hopefully this doesn’t come back to haunt us later…</p>
 
 <h3 id="whats-next">What’s Next?</h3>
 
-<p>We’re excited about the challenges ahead and are committed to refining both our technical skills and our project. Stay tuned as we continue to build and improve our application, one step at a time.</p>
+<p>As next Thurday is Sprint 1 for the class, we probably don’t have time for any <strong>big</strong> features this next week. So, by our next post we will likely only have some cleaner integration of our data retrieval and uploading from a user experience perspective, in order to “WOW!” Dr. Stonedahl during presentations with our relatively feature-sparse project.</p>
 
-<p>Thanks for reading, and let the fun begin!</p>
+<p>Wish us luck!</p>
 
         
       </section>
@@ -281,7 +285,7 @@ Alongside the application, we set up this GitHub Pages site (hi!) to share our p
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-03-09T06:30:00-05:00">March 9, 2025</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-03-16T06:30:00-05:00">March 16, 2025</time></p>
 
       </footer>
 
@@ -290,10 +294,10 @@ Alongside the application, we set up this GitHub Pages site (hi!) to share our p
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/blog/2025/03/09/week-one.html" class="pagination--pager" title="Week One - Our First Post!">Previous</a>
     
     
-      <a href="/blog/2025/03/16/week-two.html" class="pagination--pager" title="Week Two - Gaining Some Momentum">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

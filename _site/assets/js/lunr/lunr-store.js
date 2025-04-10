@@ -4,4 +4,10 @@ var store = [{
         "tags": [],
         "url": "/blog/2025/03/09/week-one.html",
         "teaser": null
+      },{
+        "title": "Week Two - Gaining Some Momentum",
+        "excerpt":"Our Week In-Review Finally finished with some of the non-project assignments for the class, we have made some more substantial progress this week Key Milestones Data Uploading and Retrieval from Google Cloud : A screenshot taken of our new upload page! Using knowledge gained from Josh and Michael’s “Tech Tutorial”...","categories": ["blog"],
+        "tags": [],
+        "url": "/blog/2025/03/16/week-two.html",
+        "teaser": null
       }]

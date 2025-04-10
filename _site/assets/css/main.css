@@ -1238,8 +1238,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .author__bio { margin: 0; }
 @media (min-width: 64em) { .author__bio { margin-top: 10px; margin-bottom: 20px; } }
 
-/* MERLIN EDIT: display: none instead of table-cell; we don't need follow buttons! */
-.author__urls-wrapper { position: relative; display: none; vertical-align: middle; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; z-index: 20; cursor: pointer; }
+.author__urls-wrapper { position: relative; display: table-cell; vertical-align: middle; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; z-index: 20; cursor: pointer; }
 .author__urls-wrapper li:last-child a { margin-bottom: 0; }
 .author__urls-wrapper .author__urls span.label { padding-inline-start: 5px; }
 @media (min-width: 64em) { .author__urls-wrapper { display: block; } }
