@@ -1,9 +1,14 @@
 Michael Wherry:
   name        : "Michael Wherry"
-  bio         : "\"I crave lambda functions\""
+  bio         : "\"I crave lambda functions.\""
   avatar      : "/assets/images/bio_photo_maw.jpg"
 
 Noah Rettig:
   name        : "Noah Rettig"
   bio         : "\"What is the size of the model?\""
   avatar      : "/assets/images/bio_photo_noah.jpg"
+
+Isaac McConnell:
+  name        : "Isaac McConnell"
+  bio         : "\"<Insert bio text here>\""
+  avatar      : "\assets/images/bio_photo_isaac.jpg"
